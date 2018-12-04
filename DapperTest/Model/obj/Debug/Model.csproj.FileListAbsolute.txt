@@ -1,0 +1,18 @@
+c:\users\41020\documents\visual studio 2017\Projects\WebDomeDapper\Model\bin\Debug\Model.dll
+c:\users\41020\documents\visual studio 2017\Projects\WebDomeDapper\Model\bin\Debug\Model.pdb
+c:\users\41020\documents\visual studio 2017\Projects\WebDomeDapper\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+c:\users\41020\documents\visual studio 2017\Projects\WebDomeDapper\Model\obj\Debug\Model.dll
+c:\users\41020\documents\visual studio 2017\Projects\WebDomeDapper\Model\obj\Debug\Model.pdb
+E:\Work\教学资料\项目案例\Dapper\WebDomeDapper\Model\bin\Debug\Model.dll
+E:\Work\教学资料\项目案例\Dapper\WebDomeDapper\Model\bin\Debug\Model.pdb
+E:\Work\教学资料\项目案例\Dapper\WebDomeDapper\Model\obj\Debug\Model.dll
+E:\Work\教学资料\项目案例\Dapper\WebDomeDapper\Model\obj\Debug\Model.pdb
+E:\Work\教学资料\项目案例\Dapper\WebDomeDapper\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\Work\教学资料\项目案例\Dapper\Dapper\WebDomeDapper\Model\bin\Debug\Model.dll
+E:\Work\教学资料\项目案例\Dapper\Dapper\WebDomeDapper\Model\bin\Debug\Model.pdb
+E:\Work\教学资料\项目案例\Dapper\Dapper\WebDomeDapper\Model\obj\Debug\Model.dll
+E:\Work\教学资料\项目案例\Dapper\Dapper\WebDomeDapper\Model\obj\Debug\Model.pdb
+E:\Work\教学资料\项目案例\Dapper\DapperTest\Model\bin\Debug\Model.dll
+E:\Work\教学资料\项目案例\Dapper\DapperTest\Model\bin\Debug\Model.pdb
+E:\Work\教学资料\项目案例\Dapper\DapperTest\Model\obj\Debug\Model.dll
+E:\Work\教学资料\项目案例\Dapper\DapperTest\Model\obj\Debug\Model.pdb

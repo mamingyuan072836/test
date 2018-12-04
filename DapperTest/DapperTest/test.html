@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>test</title>
+    <style>
+        /*公共信息提示框*/
+        .messageBox {
+            height: 52px;
+            padding: 0 200px 0 200px;/*控制宽度 200px */ 
+            line-height: 52px;
+            background: url(/content/img-set1.png) -4241px -6213px #FCF6BD no-repeat;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            position: fixed;
+            top: -60px;
+            left: 47%;
+            border: 5px solid #ddd;
+            border-top: 0;
+            color: #444;
+            font-size: 18px;
+            z-index: 9999;
+            text-align:center;
+        }
+
+        .messageError {
+            background-position: -441px -673px;
+        }
+    </style>
+    <script src="Scripts/jquery-1.10.2.js"></script>
+    <script>
+        //公共弹窗
+        function showBox(result, msg) {
+            if (result) {
+                $(".messageBox").removeClass("messageError").text(msg).css("margin-left", -($(".messageBox").outerWidth() / 2)).animate({ top: 0 }, "100").delay(850).animate({ top: "-57px" }, "1500");
+            } else {
+                $(".messageBox").addClass("messageError").text(msg).css("margin-left", -($(".messageBox").outerWidth() / 2)).animate({ top: 0 }, "100").delay(850).animate({ top: "-57px" }, "1500");
+            }
+        }
+
+        function test()
+        {
+            var tmpHtml = "<ul class='ul3'>hello</ul>";
+
+            $("#div3").html(tmpHtml);
+
+            $(".ul3").bind({
+                mouseenter: function () {
+                    alert(1234567)
+                },
+                mouseleave:function()
+                {
+
+                }
+            });
+
+        }
+
+    </script>
+</head>
+<body>
+    <div>
+        <input type="button" value="test" onclick="showBox(false,'添加权限失败！');" />
+        <input type="button" value="333333" onclick="test();" />
+        <input type="button" value="444" onclick="test2();" />
+    </div>
+    <div id="div3">
+    </div>
+    <div class="messageBox"></div>
+</body>
+</html>
